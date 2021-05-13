@@ -6,6 +6,8 @@ UIApplicationShortcutItemTypeがハンドリングのためのshortcutItem.type�
 またタスクキル状態からのクイックアクションと  
 バックグラウンド状態からのクイックアクションでは発火するSceneDelegate関数は違う  
 
+UIApplicationShortcutItemSubtitleはその通りでサブタイトル  
+
 ```Swift
 <key>UIApplicationShortcutItems</key>  
     <array>  
