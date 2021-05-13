@@ -5,6 +5,8 @@ UIApplicationShortcutItemTypeがハンドリングのためのshortcutItem.type�
 上記2つをSceneDelegateでハンドリングし、表示分けする。  
 またタスクキル状態からのクイックアクションと  
 バックグラウンド状態からのクイックアクションでは発火するSceneDelegate関数は違う  
+
+```Swift
 <key>UIApplicationShortcutItems</key>  
     <array>  
         <dict>  
@@ -28,3 +30,4 @@ UIApplicationShortcutItemTypeがハンドリングのためのshortcutItem.type�
             <string>Share an item</string>  
         </dict>  
     </array>  
+```
