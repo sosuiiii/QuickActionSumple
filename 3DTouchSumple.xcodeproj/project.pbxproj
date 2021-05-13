@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FC65CD6B41C4F43D1FA4BA /* Pods_3DTouchSumple_3DTouchSumpleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C6E60372B39C37F6448C2C /* Pods_3DTouchSumple_3DTouchSumpleUITests.framework */; };
+		1A9B81F950C44B8E5B30E808 /* Pods_3DTouchSumpleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054789A19EF65CA22E04DBE6 /* Pods_3DTouchSumpleTests.framework */; };
 		3DF11AF4264CE8F80042699F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF11AF3264CE8F80042699F /* AppDelegate.swift */; };
 		3DF11AF6264CE8F80042699F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF11AF5264CE8F80042699F /* SceneDelegate.swift */; };
 		3DF11AF8264CE8F80042699F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF11AF7264CE8F80042699F /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		3DF11B00264CE8FB0042699F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF11AFE264CE8FB0042699F /* LaunchScreen.storyboard */; };
 		3DF11B0B264CE8FB0042699F /* _DTouchSumpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF11B0A264CE8FB0042699F /* _DTouchSumpleTests.swift */; };
 		3DF11B16264CE8FB0042699F /* _DTouchSumpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF11B15264CE8FB0042699F /* _DTouchSumpleUITests.swift */; };
+		66F570459D65B51C44F7E250 /* Pods_3DTouchSumple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837BD4ADDB733B81E6A635DF /* Pods_3DTouchSumple.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054789A19EF65CA22E04DBE6 /* Pods_3DTouchSumpleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DTouchSumpleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF11AF0264CE8F80042699F /* 3DTouchSumple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchSumple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF11AF3264CE8F80042699F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF11AF5264CE8F80042699F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		3DF11B11264CE8FB0042699F /* 3DTouchSumpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchSumpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF11B15264CE8FB0042699F /* _DTouchSumpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DTouchSumpleUITests.swift; sourceTree = "<group>"; };
 		3DF11B17264CE8FB0042699F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400225329332A2186D9DF93F /* Pods-3DTouchSumpleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchSumpleTests.debug.xcconfig"; path = "Target Support Files/Pods-3DTouchSumpleTests/Pods-3DTouchSumpleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67040554043A073EF145CDDF /* Pods-3DTouchSumpleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchSumpleTests.release.xcconfig"; path = "Target Support Files/Pods-3DTouchSumpleTests/Pods-3DTouchSumpleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B618D28604C732083AB58F0 /* Pods-3DTouchSumple-3DTouchSumpleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchSumple-3DTouchSumpleUITests.debug.xcconfig"; path = "Target Support Files/Pods-3DTouchSumple-3DTouchSumpleUITests/Pods-3DTouchSumple-3DTouchSumpleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		837BD4ADDB733B81E6A635DF /* Pods_3DTouchSumple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DTouchSumple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE4BADF4F35088718E0298 /* Pods-3DTouchSumple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchSumple.release.xcconfig"; path = "Target Support Files/Pods-3DTouchSumple/Pods-3DTouchSumple.release.xcconfig"; sourceTree = "<group>"; };
+		B0C6E60372B39C37F6448C2C /* Pods_3DTouchSumple_3DTouchSumpleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DTouchSumple_3DTouchSumpleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74559BB1E4DAEBECFF1943A /* Pods-3DTouchSumple-3DTouchSumpleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchSumple-3DTouchSumpleUITests.release.xcconfig"; path = "Target Support Files/Pods-3DTouchSumple-3DTouchSumpleUITests/Pods-3DTouchSumple-3DTouchSumpleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5733F8393CDB6BFC752D5EB /* Pods-3DTouchSumple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchSumple.debug.xcconfig"; path = "Target Support Files/Pods-3DTouchSumple/Pods-3DTouchSumple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F570459D65B51C44F7E250 /* Pods_3DTouchSumple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9B81F950C44B8E5B30E808 /* Pods_3DTouchSumpleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC65CD6B41C4F43D1FA4BA /* Pods_3DTouchSumple_3DTouchSumpleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				3DF11B09264CE8FB0042699F /* 3DTouchSumpleTests */,
 				3DF11B14264CE8FB0042699F /* 3DTouchSumpleUITests */,
 				3DF11AF1264CE8F80042699F /* Products */,
+				CADAC47F5E49262DEFA4809B /* Pods */,
+				D3866D040D2C010B338F34A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = 3DTouchSumpleUITests;
 			sourceTree = "<group>";
 		};
+		CADAC47F5E49262DEFA4809B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5733F8393CDB6BFC752D5EB /* Pods-3DTouchSumple.debug.xcconfig */,
+				A2BE4BADF4F35088718E0298 /* Pods-3DTouchSumple.release.xcconfig */,
+				6B618D28604C732083AB58F0 /* Pods-3DTouchSumple-3DTouchSumpleUITests.debug.xcconfig */,
+				B74559BB1E4DAEBECFF1943A /* Pods-3DTouchSumple-3DTouchSumpleUITests.release.xcconfig */,
+				400225329332A2186D9DF93F /* Pods-3DTouchSumpleTests.debug.xcconfig */,
+				67040554043A073EF145CDDF /* Pods-3DTouchSumpleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3866D040D2C010B338F34A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837BD4ADDB733B81E6A635DF /* Pods_3DTouchSumple.framework */,
+				B0C6E60372B39C37F6448C2C /* Pods_3DTouchSumple_3DTouchSumpleUITests.framework */,
+				054789A19EF65CA22E04DBE6 /* Pods_3DTouchSumpleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DF11B1A264CE8FB0042699F /* Build configuration list for PBXNativeTarget "3DTouchSumple" */;
 			buildPhases = (
+				93289BC2977C421E66ABE5EB /* [CP] Check Pods Manifest.lock */,
 				3DF11AEC264CE8F80042699F /* Sources */,
 				3DF11AED264CE8F80042699F /* Frameworks */,
 				3DF11AEE264CE8F80042699F /* Resources */,
+				5139DE276FAC90736F41F45A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DF11B1D264CE8FB0042699F /* Build configuration list for PBXNativeTarget "3DTouchSumpleTests" */;
 			buildPhases = (
+				8866D711C5B1C91C979E7A4F /* [CP] Check Pods Manifest.lock */,
 				3DF11B02264CE8FB0042699F /* Sources */,
 				3DF11B03264CE8FB0042699F /* Frameworks */,
 				3DF11B04264CE8FB0042699F /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DF11B20264CE8FB0042699F /* Build configuration list for PBXNativeTarget "3DTouchSumpleUITests" */;
 			buildPhases = (
+				86CABB1DE950C507C4A7E291 /* [CP] Check Pods Manifest.lock */,
 				3DF11B0D264CE8FB0042699F /* Sources */,
 				3DF11B0E264CE8FB0042699F /* Frameworks */,
 				3DF11B0F264CE8FB0042699F /* Resources */,
+				58C3DE0D7F3B8519085C8CE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5139DE276FAC90736F41F45A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3DTouchSumple/Pods-3DTouchSumple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3DTouchSumple/Pods-3DTouchSumple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3DTouchSumple/Pods-3DTouchSumple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C3DE0D7F3B8519085C8CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3DTouchSumple-3DTouchSumpleUITests/Pods-3DTouchSumple-3DTouchSumpleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3DTouchSumple-3DTouchSumpleUITests/Pods-3DTouchSumple-3DTouchSumpleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3DTouchSumple-3DTouchSumpleUITests/Pods-3DTouchSumple-3DTouchSumpleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CABB1DE950C507C4A7E291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3DTouchSumple-3DTouchSumpleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8866D711C5B1C91C979E7A4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3DTouchSumpleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93289BC2977C421E66ABE5EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3DTouchSumple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DF11AEC264CE8F80042699F /* Sources */ = {
@@ -433,12 +581,14 @@
 		};
 		3DF11B1B264CE8FB0042699F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5733F8393CDB6BFC752D5EB /* Pods-3DTouchSumple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L496FTQGL3;
 				INFOPLIST_FILE = 3DTouchSumple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +602,14 @@
 		};
 		3DF11B1C264CE8FB0042699F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE4BADF4F35088718E0298 /* Pods-3DTouchSumple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L496FTQGL3;
 				INFOPLIST_FILE = 3DTouchSumple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +623,7 @@
 		};
 		3DF11B1E264CE8FB0042699F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400225329332A2186D9DF93F /* Pods-3DTouchSumpleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +646,7 @@
 		};
 		3DF11B1F264CE8FB0042699F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67040554043A073EF145CDDF /* Pods-3DTouchSumpleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +669,7 @@
 		};
 		3DF11B21264CE8FB0042699F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B618D28604C732083AB58F0 /* Pods-3DTouchSumple-3DTouchSumpleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +690,7 @@
 		};
 		3DF11B22264CE8FB0042699F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74559BB1E4DAEBECFF1943A /* Pods-3DTouchSumple-3DTouchSumpleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
